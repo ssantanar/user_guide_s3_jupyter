@@ -30,7 +30,7 @@ conda install ipykernel
 4. When everything before it is done, without error, then you can register your new (user-project) env to be used to start servers with JupyterHub. For the following command you have to use `sudo` (take care). Reeplace the kernel name, with something refering to (user-project) context. Take care with use the `python` in the `bin` folder of the conda env you have created before.
 
 ```bash
-sudo test/bin/python -m ipykernel install --prefix=/opt/jupyterhub/ --name 
+sudo test/bin/python -m ipykernel install --prefix=/opt/jupyterhub/ --name 'user-env' --display-name "user-env"
 ```
 
 5. Restart you JupyterLab server to refresh it. Go to `File` -> `Hub Control Panel` -> `Stop My Server` -(wait some seconds)-> `Start My Server` -> `Launch Server`
