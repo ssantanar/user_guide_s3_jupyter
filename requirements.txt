@@ -1,7 +1,7 @@
 backcall==0.1.0
 boto3==1.13.16
 botocore==1.16.16
-certifi==2020.4.5.1
+certifi==2022.12.7
 configparser==5.0.0
 decorator==4.4.2
 docutils==0.15.2
